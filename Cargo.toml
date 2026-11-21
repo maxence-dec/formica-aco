@@ -1,0 +1,15 @@
+[package]
+name = "formica-aco"
+version = "0.1.0"
+edition = "2021"
+default-run = "formica-aco"
+description = "Ant Colony Optimisation sandbox: stigmergy-based foraging simulation (Rust, egui)"
+repository = "https://github.com/maxence-dec/formica-aco"
+publish = false
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+anyhow = "1"
+rand = "0.8"
+eframe = "0.29"

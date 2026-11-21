@@ -1,0 +1,17 @@
+#https://github.com/rust-lang/rustfmt/blob/main/Configurations.md
+struct_lit_width = 100
+max_width = 100
+attr_fn_like_width = 100
+array_width = 100
+chain_width = 100
+fn_call_width = 100
+fn_params_layout = "Compressed"
+match_block_trailing_comma = true
+#control_brace_style = "ClosingNextLine"
+#fn_single_line = true
+#float_literal_trailing_zero = "Always"
+#imports_layout = "HorizontalVertical"
+#indent_style = "Visual"
+#imports_granularity = "Item"
+#overflow_delimited_expr = true
+#struct_field_align_threshold = 25
